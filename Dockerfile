@@ -19,7 +19,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN chmod +x thewicklowwolf-init.sh
 
 # Expose port
-EXPOSE 5000
+EXPOSE 7020
 
 # Start the app
 ENTRYPOINT ["./thewicklowwolf-init.sh"]
